@@ -8,7 +8,7 @@ sidebar:
 
     # Profile information
     name: Erin Allard
-    tagline: Sr. Developer Support Engineer. she/her. I go by "August".
+    tagline: Senior Support Engineer
     avatar: erin_august_profile_photo.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -51,7 +51,7 @@ sidebar:
 career-profile:
     title: Here's what I'd add to your team
     summary: |
-      I'm a Sr. Developer Support Engineer with well-practiced skills in both written and verbal technical communication.
+      I'm a Senior Support Engineer with well-practiced skills in both written and verbal technical communication.
       I love supporting users of developer tools! I value colleagues who lead with empathy and intelligence, and I strive to do the same.
       
 education:
@@ -60,17 +60,17 @@ education:
       time: Jan 2016 - March 2016
     - degree: MS International Real Estate
       university: Florida International Univ. (Miami, FL)
-      time: 2012 - 2013
+      # time: 2012 - 2013
     - degree: BA Economics
       university: Mills College (Oakland, CA)
-      time: 2010 - 2012
+      # time: 2010 - 2012
 experiences:
-    - role: Software Engineering Instructor (contract)
+    - role: Backend Software Engineering Instructor (contract)
       time: May 2023 - November 2023
       company: Masterschool
       details: |
         Taught fundamentals of Python, APIs and web development to 80+ adults changing their careers. Delivered original, weekly live sessions on various technology concepts. Mentored students through interview preparations.
-    - role: Software Engineer (contract)
+    - role: Backend Software Engineer (contract)
       time: August 2022 - November 2022
       company: Democratic National Committee
       details: |
@@ -80,13 +80,13 @@ experiences:
       company:
       details: |
         After 6 years of non-stop work in technical roles — and 2 years of a global pandemic – I took a year off to pursue my lifelong dream of building a homestead and growing my own food.
-    - role: Software Engineer for Technical Content (Python)
+    - role: Technical Writer and Editor, Python Content
       time: May 2021 - March 2022
       company: Twilio - Remote in USA
       details: |
         Contributed original, code-heavy technical tutorials that use Python frameworks to
         interact with Twilio's APIs, and provided technical editing to external 
-        Python contributors approved to write for the Twilio blog. Selected highlights:
+        Python contributors approved to write for the Twilio blog. Touched 25+ articles during my tenure. Selected highlights:
           - [Expose a Local Django Server to the Internet Using ngrok](https://www.twilio.com/blog/expose-local-django-server-to-internet-using-ngrok) (author)
           - [Create Secret Santa Matches using Python Flask and Twilio SMS](https://www.twilio.com/blog/secret-santa-matches-python-flask-twilio-sms) (author)
           - [Create A Cold War-Era Numbers Station with Twilio Voice and Python Flask](https://www.twilio.com/blog/cold-war-numbers-station-twilio-voice-python-flask) (editor)
@@ -94,19 +94,19 @@ experiences:
       time: April 2019 - April 2021
       company: Heroku - Remote in USA
       details: |
-        Offered engineering support to customers deploying a wide range of tech stacks and databases on Heroku.
+        Offered engineering support to 1,000+ of developers deploying a wide range of tech stacks and databases on Heroku.
         Established and socialized process improvements within the team to ensure common customer issues were documented and mitigated effectively. Other contributions:
           - Heroku Dev Center: [Scheduling Custom Django Management Commands](https://devcenter.heroku.com/articles/scheduling-custom-django-management-commands)
           - Heroku podcast host: [Episode #60: From Engineer to Entrepreneur](https://www.heroku.com/podcasts/codeish/60-from-engineer-to-entrepreneur)
-    - role: Software Engineering Instructor (contract)
+    - role: Backend Software Engineering Instructor (contract)
       time: April 2018 - Present
       company: LinkedIn Learning - Carpinteria, CA
       details: |
         Designed, developed and delivered software engineering curriculum for 3 courses in LinkedIn Learning's Python track:
           - [Python Data Structures: Stacks, Queues and Deques](https://www.linkedin.com/learning/python-data-structures-stacks-queues-and-deques) (~82,000 students and 4.7/5 stars)
-          - [Python Data Structures: Linked Lists](https://www.linkedin.com/learning/python-data-structures-linked-lists) (~16,000 students and 4.8/5 stars)
-          - [Nail Your Python Interview](https://www.linkedin.com/learning/nail-your-python-interview) (~45,000 students and 4.6/5 stars)
-    - role: Software Engineer
+          - [Python Data Structures: Linked Lists](https://www.linkedin.com/learning/python-data-structures-linked-lists) (~24,000 students and 4.7/5 stars)
+          - [Nail Your Python Interview](https://www.linkedin.com/learning/nail-your-python-interview) (~53,000 students and 4.6/5 stars)
+    - role: Backend Software Engineer
       time: January 2018 - April 2019
       company: Numerator - San Francisco, CA
       details: |
@@ -133,6 +133,10 @@ projects:
     intro: >
       I love building my own automated & algorithmic trading apps in my spare time, as well as tinkering with microcomputers and IoT devices.
     assignments:
+      - title: Coffee's Ready! (2022)
+        link:
+        tagline: "A waterproof, high-temperature heat sensor sends you an SMS message via a RaspberryPi and the Twilio API when your coffee is a drinkable temperature."
+      
       - title: FOREX Manager (2021)
         link: 
         tagline: "A custom API built with the Django REST Framework to integrate with MetaTrader4 for foreign exchange (currency) trade outcome analysis."
@@ -140,10 +144,6 @@ projects:
       - title: LendingClub Bot (2019)
         link: 
         tagline: "Automate buying notes on LendingClub's secondary market with a Python app deployed to Heroku."
-
-      - title: Coffee's Ready! (2022)
-        link:
-        tagline: "A waterproof, high-temperature heat sensor sends you an SMS message via a RaspberryPi and the Twilio API when your coffee is a drinkable temperature."
 
       - title: LED Rainbow Hearts (2017)
         link:
@@ -154,6 +154,11 @@ publications:
     intro: |
       I'm grateful to have had the opportunity to share my knowledge and expertise with a wide audience.
     papers:
+      - title: 13 Fun Facts About Python's return Statement for Savvy Programmers
+        # link: "https://www.youtube.com/watch?v=z0ZzCvTFzms"
+        # authors: Erin Allard
+        conference: (Forthcoming) Conference talk at PyBay 2024 in San Francisco, CA
+        
       - title: Make Your Engineering Team A Fabulous Place for Programmers with ADHD and Autism
         link: "https://www.youtube.com/watch?v=z0ZzCvTFzms"
         # authors: Erin Allard
